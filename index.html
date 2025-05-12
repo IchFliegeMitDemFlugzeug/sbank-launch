@@ -2,13 +2,20 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.vtb.android.mobilebanking;end">
+  <title>Запуск Альфа-Банк</title>
+  <!-- Мгновенный мета-редирект на deep link -->
+  <meta http-equiv="refresh" content="0; url=bank100000000111://qr.nspk.ru/">
   <script>
-    window.location.href = "intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.vtb.android.mobilebanking;end";
+    // JS-редирект вместо мета, на всякий случай
+    window.location.href = "bank100000000111://qr.nspk.ru/";
   </script>
-  <title>Запуск ВТБ Онлайн</title>
 </head>
 <body>
-  <p>Если приложение ВТБ Онлайн не запустилось автоматически, <a href="intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=com.vtb.android.mobilebanking;end">нажмите здесь</a> для запуска.</p>
+  <p>
+    Если приложение Альфа-Банк не запустилось автоматически,
+    <a href="bank100000000111://qr.nspk.ru/">
+      нажмите здесь
+    </a>.
+  </p>
 </body>
 </html>
